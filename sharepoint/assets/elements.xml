@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CustomAction
+        Title="PwaExtension"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ClientSideComponentId="f36f7fe3-b5d4-4511-8c35-e8b1632429aa"
+        ClientSideComponentProperties="{&quot;testMessage&quot;:&quot;Test message&quot;}">
+    </CustomAction>
+</Elements>

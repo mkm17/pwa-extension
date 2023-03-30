@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "pwa-extension-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/pwaExtension/PwaExtensionApplicationCustomizer.js",
+          "manifest": "./src/extensions/pwaExtension/PwaExtensionApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "PwaExtensionApplicationCustomizerStrings": "lib/extensions/pwaExtension/loc/{locale}.js"
+  }
+}

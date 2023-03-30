@@ -1,0 +1,33 @@
+{
+    "theme_color": "#323c48",
+    "background_color": "#323c48",
+    "display": "standalone",
+    "scope": "/",
+    "id":"/sites/LanguageApp/",
+    "start_url": "https://YOUR_TENANT_NAME.sharepoint.com/sites/LanguageApp/SitePages/Word-App.aspx",
+    "name": "Language App",
+    "short_name": "Lang App",
+    "description": "desc",
+    "icons": [
+        {
+            "src": "https://YOUR_TENANT_NAME.sharepoint.com/sites/LanguageApp/Shared%20Documents/icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "https://YOUR_TENANT_NAME.sharepoint.com/sites/LanguageApp/Shared%20Documents/icon-256x256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        },
+        {
+            "src": "https://YOUR_TENANT_NAME.sharepoint.com/sites/LanguageApp/Shared%20Documents/icon-384x384.png",
+            "sizes": "384x384",
+            "type": "image/png"
+        },
+        {
+            "src": "https://YOUR_TENANT_NAME.sharepoint.com/sites/LanguageApp/Shared%20Documents/icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}

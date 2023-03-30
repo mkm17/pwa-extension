@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://YOUR_TENANT_NAME.sharepoint.com/sites/LanguageApp",
+      "customActions": {
+        "f36f7fe3-b5d4-4511-8c35-e8b1632429aa": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    },
+    "pwaExtension": {
+      "pageUrl": "https://YOUR_TENANT_NAME.sharepoint.com/sites/LanguageApp",
+      "customActions": {
+        "f36f7fe3-b5d4-4511-8c35-e8b1632429aa": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    }
+  }
+}
